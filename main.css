@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,500;1,400&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    background-color: pink;
+    width: 480px;
+    padding: 50px 0 80px;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+body {
+    background-color: pink;
+    color: rgb(0, 0, 0);
+}
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+.board {
+    width: 306px;
+    height: 306px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: 98px;
+    height: 98px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+}
+.square:hover {
+    cursor: pointer;
+    
+}
+button {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+button:hover {
+    background-color: pink;
+    cursor: pointer;
+    box-shadow: none;
+}
+.player-one {
+    background-color: rgb(180, 74, 92);
+}
+.player-two {
+    background-color: black;
+}
+.player-one:hover {
+    cursor: initial;
+    background-color: rgb(180, 74, 92);
+}
+.player-two:hover {
+    cursor: initial;
+    background-color: pink;
+}
+.message {
+    text-align: center;
+}
+.reset-button {
+    text-align: center;
+    margin-top: 10px;
+}
